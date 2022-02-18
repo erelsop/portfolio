@@ -1,0 +1,58 @@
+.portfolio-section {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #c8ec84;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  justify-items: center;
+}
+
+.portfolio-item-container {
+  padding: 2rem;
+}
+
+.back-button {
+  text-decoration: none;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.back-button .go-back {
+  text-align: center;
+  margin-top: 1rem;
+  color: black;
+  font-size: 2rem;
+}
+
+.item-title,
+.item-description,
+.item-language,
+.item-link {
+  margin-top: 1rem;
+}
+
+.item-title {
+  font-size: 2rem;
+}
+
+.item-description {
+  font-size: 1rem;
+}
+
+.item-language {
+  font-size: 1.2rem;
+}
+
+.item-link {
+  color: black;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: 0.2s;
+}
+
+.item-link:hover {
+  font-size: 2rem;
+  transition: 0.2s;
+}

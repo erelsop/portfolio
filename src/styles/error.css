@@ -1,0 +1,41 @@
+.main-content {
+  background-color: #c8ec84;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  justify-items: center;
+}
+
+.error-text {
+  grid-column: 1 / span 2;
+  grid-row: row 1;
+  font-size: 4rem;
+  line-height: 4rem;
+}
+
+.row2 {
+  grid-column: 1 / span 2;
+  grid-row: row 2;
+}
+
+.home-link {
+  grid-column: 1 / span 2;
+  grid-row: row 3;
+  font-size: 2rem;
+  color: black;
+  transition: 0.4s;
+  text-decoration: none;
+}
+
+.home-link:hover {
+  font-size: 2rem;
+  transition: 0.4s;
+}
+
+.back-button:hover {
+  width: unset;
+}
+
+.back-button img {
+  margin-bottom: 1rem;
+}
