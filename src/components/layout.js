@@ -45,9 +45,9 @@ const layout = ({ children }) => {
             >
               Blog
             </Link> */}
-            <Link to="/blog" className="index-route" title="Blog">
+            {/* <Link to="/blog" className="index-route" title="Blog">
               Blog
-            </Link>
+            </Link> */}
           </li>
         </ul>
 
