@@ -3,7 +3,7 @@ import "../styles/about-styles.css"
 
 const about = () => {
   return (
-    <section className="about-section">
+    <section className="about-section" id="about">
       <article className="bio">
         <p className="about-text">
           Hello there! My name is Ethan Elsop and I am a web developer and UI/UX

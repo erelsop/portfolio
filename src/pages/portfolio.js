@@ -6,6 +6,7 @@ import backArrow from "../images/back-arrow.svg"
 const portfolio = () => {
   return (
     <section className="portfolio-section">
+      {/* <Link to="/eelsop/web287/public" className="back-button"> */}
       <Link to="/" className="back-button">
         <img src={backArrow} alt="back button" />
         <p className="go-back">Go back</p>
@@ -43,20 +44,6 @@ const portfolio = () => {
           GitHub
         </a>
       </section>
-      {/* <section className="portfolio-item-container">
-        <h1 className="item-title">Sudoku Solver</h1>
-        <p className="item-description">
-          A sudoku solver that uses a recursive backtrack algorithm to solve
-          grids.
-        </p>
-        <p className="item-language">Language: JavaScript</p>
-        <a
-          href="https://github.com/LeaMorelPsi/Sudoku-Solver"
-          className="item-link"
-        >
-          GitHub
-        </a>
-      </section> */}
     </section>
   )
 }
