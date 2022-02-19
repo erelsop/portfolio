@@ -1,7 +1,6 @@
 .portfolio-section {
   width: 100%;
   min-height: 100vh;
-  background-color: #c8ec84;
   display: grid;
   grid-template-columns: repeat(3, 33%);
   justify-items: center;
