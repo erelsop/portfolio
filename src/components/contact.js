@@ -7,8 +7,8 @@ const contact = () => {
       <h1 class="contact-heading">Say hi</h1>
       <form
         method="post"
-        action="https://getform.io/f/{getform-id-goes-here}"
         className="contact-form"
+        netlify
       >
         <div className="field-container">
           <div className="left">
