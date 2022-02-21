@@ -8,7 +8,7 @@ const contact = () => {
       <form
         method="post"
         className="contact-form"
-        netlify
+        data-netlify="true"
       >
         <div className="field-container">
           <div className="left">
