@@ -6,6 +6,7 @@ const contact = () => {
     <section className="contact-section" id="contact">
       <h1 class="contact-heading">Say hi</h1>
       <form
+        name="contact"
         method="post"
         className="contact-form"
         data-netlify="true"
@@ -33,6 +34,7 @@ const contact = () => {
               placeholder="Hello! Start your message here.."
               id="message"
             />
+            <input type="hidden" name="form-name" value="contact">
           </div>
           <div className="form-btns">
             <button type="submit" name="submit" value="Send">
