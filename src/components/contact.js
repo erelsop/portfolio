@@ -34,7 +34,7 @@ const contact = () => {
               placeholder="Hello! Start your message here.."
               id="message"
             />
-            <input type="hidden" name="form-name" value="contact">
+            <input type="hidden" name="form-name" value="contact"/>
           </div>
           <div className="form-btns">
             <button type="submit" name="submit" value="Send">
