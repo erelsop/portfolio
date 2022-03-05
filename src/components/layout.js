@@ -38,6 +38,13 @@ const layout = ({ children }) => {
             </a>
           </li>
           <li>
+            <a
+              href="https://ethanrelsop.wordpress.com/"
+              className="index-route"
+              title="Blog"
+            >
+              Blog
+            </a>
             {/* <Link
               to="/eelsop/web287/public/blog"
               className="index-route"
