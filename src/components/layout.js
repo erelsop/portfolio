@@ -37,25 +37,6 @@ const layout = ({ children }) => {
               About
             </a>
           </li>
-          <li>
-            <a
-              href="https://ethanrelsop.wordpress.com/"
-              className="index-route"
-              title="Blog"
-            >
-              Blog
-            </a>
-            {/* <Link
-              to="/eelsop/web287/public/blog"
-              className="index-route"
-              title="Blog"
-            >
-              Blog
-            </Link> */}
-            {/* <Link to="/blog" className="index-route" title="Blog">
-              Blog
-            </Link> */}
-          </li>
         </ul>
 
         <img src={scrollIcon} alt="scroll down" className="scroll-icon" />
