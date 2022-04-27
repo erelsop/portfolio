@@ -5,7 +5,14 @@ const contact = () => {
   return (
     <section className="contact-section" id="contact">
       <h1 class="contact-heading">Say hi</h1>
-      <form method="post" className="contact-form" netlify action="/">
+      <form
+        name="contact"
+        method="post"
+        className="contact-form"
+        data-netlify="true"
+        action="/"
+      >
+        <input type="hidden" name="contact" value="contact" />
         <div className="field-container">
           <div className="left">
             <label htmlFor="email" className="sr-only">
