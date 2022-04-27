@@ -16,26 +16,24 @@ const layout = ({ children }) => {
         </div>
         <ul>
           <li>
-            {/* <Link
-              to="/eelsop/web287/public/portfolio"
-              className="index-route"
-              title="Portfolio"
-            >
-              Portfolio
-            </Link> */}
             <Link to="/portfolio" className="index-route" title="Portfolio">
               Portfolio
             </Link>
           </li>
           <li>
-            <a href="#contact" className="index-route" title="Contact">
-              Contact
-            </a>
+            <Link to="/#about" className="index-route" title="About">
+              About
+            </Link>
           </li>
           <li>
-            <a href="#about" className="index-route" title="About">
-              About
-            </a>
+            <Link to="/#contact" className="index-route" title="Contact">
+              Contact
+            </Link>
+          </li>
+          <li>
+            <Link to="/blog" className="index-route" title="Blog">
+              Blog
+            </Link>
           </li>
         </ul>
 

@@ -5,11 +5,7 @@ const contact = () => {
   return (
     <section className="contact-section" id="contact">
       <h1 class="contact-heading">Say hi</h1>
-      <form
-        method="post"
-        action="https://getform.io/f/{getform-id-goes-here}"
-        className="contact-form"
-      >
+      <form method="post" className="contact-form" data-netlify="true">
         <div className="field-container">
           <div className="left">
             <label htmlFor="email" className="sr-only">

@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import backArrow from "../images/back-arrow.svg"
+import backArrow from "../images/back-arrow-white.svg"
 import "../styles/portfolio.css"
 import "../styles/error.css"
 

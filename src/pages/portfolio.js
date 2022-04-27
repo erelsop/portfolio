@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import "../styles/portfolio.css"
-import backArrow from "../images/back-arrow.svg"
+import backArrow from "../images/back-arrow-white.svg"
 
 const portfolio = () => {
   return (
@@ -26,8 +26,10 @@ const portfolio = () => {
         <a
           href="https://github.com/LeaMorelPsi/PixelPass"
           className="item-link"
+          target="_blank"
+          rel="noreferrer"
         >
-          GitHub
+          GitHub Page
         </a>
       </section>
       <section className="portfolio-item-container">
@@ -40,8 +42,10 @@ const portfolio = () => {
         <a
           href="https://github.com/LeaMorelPsi/Sudoku-Solver"
           className="item-link"
+          target="_blank"
+          rel="noreferrer"
         >
-          GitHub
+          GitHub Page
         </a>
       </section>
     </section>

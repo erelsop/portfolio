@@ -10,7 +10,7 @@ body {
   margin: 0;
   line-height: 30px;
   font-family: "Fira Code", monospace;
-  text-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
+  text-shadow: 0 0 1rem rgba(169, 169, 169, 0.15);
   font-weight: bold;
 }
 
@@ -24,8 +24,9 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 25%);
   height: 100vh;
-  background-color: #c8ec84;
   text-align: center;
+  background-color: rgb(28, 26, 33);
+  color: white;
 }
 
 .index-text {
@@ -69,7 +70,7 @@ li .index-route {
   text-align: center;
   font: normal 1rem "Fira Code";
   text-transform: uppercase;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
