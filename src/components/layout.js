@@ -30,11 +30,6 @@ const layout = ({ children }) => {
               Contact
             </Link>
           </li>
-          <li>
-            <Link to="/blog" className="index-route" title="Blog">
-              Blog
-            </Link>
-          </li>
         </ul>
 
         <img src={scrollIcon} alt="scroll down" className="scroll-icon" />
